@@ -1,0 +1,25 @@
+// ============================================================================
+// File Name  : assertions.sva
+// Description: Standalone SystemVerilog Assertion (SVA) definitions file
+//              for UART Transmitter, Receiver, and Baud Rate Generator timing.
+// ============================================================================
+
+module assertions_sva_bind;
+    bind uart_top uart_assertions u_assertions_bind (
+        .clk          (clk),
+        .rst_n        (rst_n),
+        .baud_div     (baud_div),
+        .parity_type  (parity_type),
+        .stop_bits    (stop_bits),
+        .tx_start     (tx_start),
+        .tx_data      (tx_data),
+        .tx           (tx),
+        .tx_busy      (tx_busy),
+        .tx_done      (tx_done),
+        .rx           (rx),
+        .rx_data      (rx_data),
+        .rx_ready     (rx_ready),
+        .parity_error (parity_error),
+        .frame_error  (frame_error)
+    );
+endmodule
