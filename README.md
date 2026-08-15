@@ -169,6 +169,7 @@ Formal concurrent assertions defined in [`tb/uart_assertions.sv`](./tb/uart_asse
 
 ---
 
+
 ## 📧 Contact & Attribution
 
 Developed by **Abhijit Karale** — Digital Design & Verification Engineer.
