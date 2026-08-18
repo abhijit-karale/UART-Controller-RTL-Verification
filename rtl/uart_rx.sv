@@ -181,3 +181,4 @@ module uart_rx (
     end
 
 endmodule
+
