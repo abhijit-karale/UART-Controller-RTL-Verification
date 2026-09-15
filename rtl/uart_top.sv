@@ -2,7 +2,7 @@
 // Module Name  : uart_top
 // Description  : Top-level UART Controller module encapsulating Baud Rate 
 //                Generator, Transmitter, and Receiver with flexible configuration.
-// ============================================================================
+ // ============================================================================
 
 module uart_top (
     input  logic        clk,          // System clock
